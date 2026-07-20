@@ -119,8 +119,8 @@ const Allay: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -138,8 +138,8 @@ const Armadillo: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.005 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -195,8 +195,8 @@ const Axolotl: LootTablePool = {
       { "condition": "or",
         "conditions": [
           { "condition": "random_chance_with_looting",
-            "chance": 0.2,
-            "looting_multiplier": 0.01
+            "chance": 1,
+            "looting_multiplier": 1
           },
           { "condition": "has_variant",
             "value": 4
@@ -218,8 +218,8 @@ const Bat: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -280,8 +280,8 @@ const Bee: LootTablePool = {
       }], 
     "conditions": [ 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -299,8 +299,8 @@ const Blaze: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.0005 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -318,8 +318,8 @@ const Bogged: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.06, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -337,8 +337,8 @@ const Breeze: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -455,8 +455,8 @@ const Cat: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.33, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -474,8 +474,8 @@ const CaveSpider: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -493,8 +493,8 @@ const Chicken: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.01, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -512,8 +512,8 @@ const Cod: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -531,8 +531,8 @@ const Cow: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.01, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -568,8 +568,8 @@ const Dolphin: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.33, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -587,8 +587,8 @@ const Donkey: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.09 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -606,8 +606,8 @@ const Drowned: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -640,8 +640,8 @@ const Enderman: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.0001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -659,8 +659,8 @@ const Endermmite: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -678,8 +678,8 @@ const Evoker: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.25, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -709,8 +709,8 @@ const Fox: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.2,
-        "looting_multiplier": 0.004
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -748,8 +748,8 @@ const Frog: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.2,
-        "looting_multiplier": 0.01
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -767,8 +767,8 @@ const Ghast: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.0625, 
-        "looting_multiplier": 0.0125 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -786,8 +786,8 @@ const GlowSquid: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -819,8 +819,8 @@ const Goat: LootTablePool = {
       { "condition": "or",
         "conditions": [
           { "condition": "random_chance_with_looting",
-            "chance": 0.01,
-            "looting_multiplier": 0.001
+            "chance": 1,
+            "looting_multiplier": 1
           },
           { "condition": "has_variant",
             "value": 1
@@ -842,8 +842,8 @@ const Guardian: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -861,8 +861,8 @@ const Hoglin: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.03, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -932,8 +932,8 @@ const Horse: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.27,
-        "looting_multiplier": 0.01
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -951,8 +951,8 @@ const Husk: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.06, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -972,8 +972,8 @@ const Illusioner: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.25, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -992,8 +992,8 @@ const IronGolem: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.015 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1039,8 +1039,8 @@ const Llama: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.24,
-        "looting_multiplier": 0.02
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -1058,8 +1058,8 @@ const MagmaCube: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1089,8 +1089,8 @@ const Mooshroom: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.1,
-        "looting_multiplier": 0.001
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -1108,8 +1108,8 @@ const Mule: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1127,8 +1127,8 @@ const Ocelot: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1198,8 +1198,8 @@ const Panda: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.27,
-        "looting_multiplier": 0.004
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -1253,8 +1253,8 @@ const Parrot: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.25,
-        "looting_multiplier": 0.02
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -1272,8 +1272,8 @@ const Phantom: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1291,8 +1291,8 @@ const Pig: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.01, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1310,8 +1310,8 @@ const PiglinBrute: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1329,8 +1329,8 @@ const Pillager: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.025, 
-        "looting_multiplier": 0.005 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1348,8 +1348,8 @@ const PolarBear: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1367,8 +1367,8 @@ const Pufferfish: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.15, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1443,8 +1443,8 @@ const Rabbit: LootTablePool = {
       { "condition": "or",
         "conditions": [
           { "condition": "random_chance_with_looting",
-            "chance": 0.26,
-            "looting_multiplier": 0.05
+            "chance": 1,
+            "looting_multiplier": 1
           },
           { "condition": "has_variant",
             "value": 99
@@ -1484,8 +1484,8 @@ const Ravager: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.25, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1503,8 +1503,8 @@ const Salmon: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1582,8 +1582,8 @@ const Sheep1: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.0175,
-        "looting_multiplier": 0.0025
+        "chance": 1,
+        "looting_multiplier": 1
       },
       { "condition": "is_named",
         "operator": "!=",
@@ -1669,8 +1669,8 @@ const Sheep2: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.0175,
-        "looting_multiplier": 0.0025
+        "chance": 1,
+        "looting_multiplier": 1
       },
       { "condition": "is_named",
         "operator": "!=",
@@ -1714,8 +1714,8 @@ const Shulker: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1733,8 +1733,8 @@ const Silverfish: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1752,8 +1752,8 @@ const SkeletonHorse: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1771,8 +1771,8 @@ const Slime: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.025, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1805,8 +1805,8 @@ const SnowGolem: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1824,8 +1824,8 @@ const Spider: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1843,8 +1843,8 @@ const Squid: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1862,8 +1862,8 @@ const Stray: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.06, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1894,8 +1894,8 @@ const Strider: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1913,8 +1913,8 @@ const Tadpole: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1960,8 +1960,8 @@ const TraderLlama: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.24,
-        "looting_multiplier": 0.07
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -1979,8 +1979,8 @@ const Tropicalfish: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -1998,8 +1998,8 @@ const Turtle: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.1, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2030,8 +2030,8 @@ const Vex: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.91, 
-        "looting_multiplier": 0.01 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2199,8 +2199,8 @@ const Vindicator: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.05, 
-        "looting_multiplier": 0.015 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2246,8 +2246,8 @@ const Witch: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2369,8 +2369,8 @@ const Wolf: LootTablePool = {
         "not": true
       },
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.01
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2455,8 +2455,8 @@ const AngryWolf: LootTablePool = {
         "not": true
       },
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.01
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2489,8 +2489,8 @@ const SnowyWolf: LootTablePool = {
       { "condition": "has_variant",
             "value": 5}, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.5, 
-        "looting_multiplier": 0.1
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2508,8 +2508,8 @@ const Zoglin: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.2, 
-        "looting_multiplier": 0.05 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2541,8 +2541,8 @@ const ZombieNautilus: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };
@@ -2560,8 +2560,8 @@ const SulfurCube: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.005,
-        "looting_multiplier": 0.001
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2579,8 +2579,8 @@ const CopperGolem: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.005,
-        "looting_multiplier": 0.001
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2598,8 +2598,8 @@ const HappyGhast: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.005,
-        "looting_multiplier": 0.001
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2617,8 +2617,8 @@ const Nautilus: LootTablePool = {
     "conditions": [
       { "condition": "killed_by_player" },
       { "condition": "random_chance_with_looting",
-        "chance": 0.005,
-        "looting_multiplier": 0.001
+        "chance": 1,
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2700,8 +2700,8 @@ const ZombieVillager1: LootTablePool = {
         "value": 7
       },
       { "condition": "random_chance_with_looting", 
-        "chance": 0.5, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2775,8 +2775,8 @@ const ZombieVillager2: LootTablePool = {
         "value": 8
       },
       { "condition": "random_chance_with_looting", 
-        "chance": 0.5, 
-        "looting_multiplier": 0.02 
+        "chance": 1, 
+        "looting_multiplier": 1
       }]
   }`,
 };
@@ -2794,8 +2794,8 @@ const ZombiePigman: LootTablePool = {
     "conditions": [ 
       { "condition": "killed_by_player" }, 
       { "condition": "random_chance_with_looting", 
-        "chance": 0.005, 
-        "looting_multiplier": 0.001 
+        "chance": 1, 
+        "looting_multiplier": 1
       }] 
   }`,
 };

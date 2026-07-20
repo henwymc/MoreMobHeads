@@ -24,6 +24,7 @@ export function BuildLootTableArray() {
     CaveSpider,
     Chicken,
     Cod,
+    CopperGolem,
     Cow,
     ChargedCreeper,
     Dolphin,
@@ -39,6 +40,7 @@ export function BuildLootTableArray() {
     GlowSquid,
     Goat,
     Guardian,
+    HappyGhast,
     Hoglin,
     Horse,
     Husk,
@@ -47,6 +49,7 @@ export function BuildLootTableArray() {
     MagmaCube,
     Mooshroom,
     Mule,
+    Nautilus,
     Ocelot,
     Panda,
     Parrot,
@@ -91,6 +94,8 @@ export function BuildLootTableArray() {
     SnowyWolf,
     Zoglin,
     ZombieHorse,
+    ZombieNautilus,
+    SulfurCube,
     ZombieVillager1,
     ZombieVillager2,
     ZombiePigman,
@@ -2520,6 +2525,101 @@ const ZombieHorse: LootTablePool = {
         "weight": 1 
       }], 
     "conditions": [{ "condition": "killed_by_player" }]
+  }`,
+};
+
+const ZombieNautilus: LootTablePool = {
+  entityTypeID: MinecraftEntityTypes.ZombieNautilus,
+  lootTablePool: `
+  { 
+    "rolls": 1, 
+    "entries": [ 
+      { "type": "item", 
+        "name": "moremobheads:zombie_nautilus_head_block", 
+        "weight": 1 
+      }], 
+    "conditions": [ 
+      { "condition": "killed_by_player" }, 
+      { "condition": "random_chance_with_looting", 
+        "chance": 0.005, 
+        "looting_multiplier": 0.001 
+      }] 
+  }`,
+};
+
+const SulfurCube: LootTablePool = {
+  entityTypeID: MinecraftEntityTypes.SulfurCube,
+  lootTablePool: `
+  {
+    "rolls": 1,
+    "entries": [
+      { "type": "item",
+        "name": "moremobheads:sulfur_cube_head_block",
+        "weight": 1
+      }],
+    "conditions": [
+      { "condition": "killed_by_player" },
+      { "condition": "random_chance_with_looting",
+        "chance": 0.005,
+        "looting_multiplier": 0.001
+      }]
+  }`,
+};
+
+const CopperGolem: LootTablePool = {
+  entityTypeID: MinecraftEntityTypes.CopperGolem,
+  lootTablePool: `
+  {
+    "rolls": 1,
+    "entries": [
+      { "type": "item",
+        "name": "moremobheads:copper_golem_head_block",
+        "weight": 1
+      }],
+    "conditions": [
+      { "condition": "killed_by_player" },
+      { "condition": "random_chance_with_looting",
+        "chance": 0.005,
+        "looting_multiplier": 0.001
+      }]
+  }`,
+};
+
+const HappyGhast: LootTablePool = {
+  entityTypeID: MinecraftEntityTypes.HappyGhast,
+  lootTablePool: `
+  {
+    "rolls": 1,
+    "entries": [
+      { "type": "item",
+        "name": "moremobheads:happy_ghast_head_block",
+        "weight": 1
+      }],
+    "conditions": [
+      { "condition": "killed_by_player" },
+      { "condition": "random_chance_with_looting",
+        "chance": 0.005,
+        "looting_multiplier": 0.001
+      }]
+  }`,
+};
+
+const Nautilus: LootTablePool = {
+  entityTypeID: MinecraftEntityTypes.Nautilus,
+  lootTablePool: `
+  {
+    "rolls": 1,
+    "entries": [
+      { "type": "item",
+        "name": "moremobheads:nautilus_head_block",
+        "weight": 1
+      }],
+    "conditions": [
+      { "condition": "killed_by_player" },
+      { "condition": "random_chance_with_looting",
+        "chance": 0.005,
+        "looting_multiplier": 0.001
+      }]
   }`,
 };
 

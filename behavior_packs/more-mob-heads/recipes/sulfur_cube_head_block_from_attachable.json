@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:sulfur_cube_block_from_attachable"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:sulfur_cube"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:sulfur_cube"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:sulfur_cube_block"
+    },
+    "tags": ["crafting_table"]
+  }
+}

@@ -198,6 +198,11 @@
     "zombie_shepherd_head": { "textures": "textures/blocks/zombie_shepherd_head" },
     "zombie_toolsmith_head": { "textures": "textures/blocks/zombie_toolsmith_head" },
     "zombie_weaponsmith_head": { "textures": "textures/blocks/zombie_weaponsmith_head" },
-    "zombified_piglin_head": { "textures": "textures/blocks/zombified_piglin_head" }
+    "zombified_piglin_head": { "textures": "textures/blocks/zombified_piglin_head" },
+    "nautilus_head": { "textures": "textures/blocks/nautilus_head" },
+    "zombie_nautilus_head": { "textures": "textures/blocks/zombie_nautilus_head" },
+    "copper_golem_head": { "textures": "textures/blocks/copper_golem_head" },
+    "sulfur_cube_head": { "textures": "textures/blocks/sulfur_cube_head" },
+    "happy_ghast_head": { "textures": "textures/blocks/happy_ghast_head" }
   }
 }

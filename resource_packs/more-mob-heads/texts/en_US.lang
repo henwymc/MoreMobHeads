@@ -194,6 +194,11 @@ item.moremobheads:zombie_shepherd_head=Zombie Shepherd Head
 item.moremobheads:zombie_toolsmith_head=Zombie Toolsmith Head
 item.moremobheads:zombie_weaponsmith_head=Zombie Weaponsmith Head
 item.moremobheads:zombified_piglin_head=Zombified Piglin Head
+item.moremobheads:zombie_nautilus_head=Zombie Nautilus Head
+item.moremobheads:copper_golem_head=Copper Golem Head
+item.moremobheads:happy_ghast_head=Happy Ghast Head
+item.moremobheads:nautilus_head=Nautilus Head
+item.moremobheads:sulfur_cube_head=Sulfur Cube Head
 
 
 

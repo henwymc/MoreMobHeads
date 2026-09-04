@@ -10,6 +10,7 @@ import {
   mcaddonTask,
   setupEnvironment,
   ZipTaskParameters,
+  zipTask,
   STANDARD_CLEAN_PATHS,
   DEFAULT_CLEAN_DIRECTORIES,
   getOrThrowFromProcess,
@@ -20,6 +21,7 @@ import path from "path";
 // Setup env variables
 setupEnvironment(path.resolve(__dirname, ".env"));
 const projectName = getOrThrowFromProcess("PROJECT_NAME");
+const projectVersion = (require("./package.json") as { version: string }).version;
 
 const bundleTaskOptions: BundleTaskParameters = {
   entryPoint: path.join(__dirname, "./scripts/main.ts"),
@@ -38,8 +40,15 @@ const copyTaskOptions: CopyTaskParameters = {
 
 const mcaddonTaskOptions: ZipTaskParameters = {
   ...copyTaskOptions,
-  outputFile: `./dist/packages/${projectName}.mcaddon`,
+  outputFile: `./dist/packages/${projectName}-v${projectVersion}.mcaddon`,
 };
+
+const releaseZipOutputFile = `./dist/packages/${projectName}-v${projectVersion}.zip`;
+const releaseZipContents = [
+  { contents: [`./behavior_packs/${projectName}`], targetPath: `behavior_packs/${projectName}` },
+  { contents: ["./dist/scripts"], targetPath: `behavior_packs/${projectName}/scripts` },
+  { contents: [`./resource_packs/${projectName}`], targetPath: `resource_packs/${projectName}` },
+];
 
 // Lint
 task("lint", coreLint(["scripts/**/*.ts"], argv().fix));
@@ -70,3 +79,10 @@ task(
 // Mcaddon
 task("createMcaddonFile", mcaddonTask(mcaddonTaskOptions));
 task("mcaddon", series("clean-local", "build", "createMcaddonFile"));
+
+// Release zip (manual-install folders for com.mojang)
+task("createReleaseZip", zipTask(releaseZipOutputFile, releaseZipContents));
+task("releaseZip", series("clean-local", "build", "createReleaseZip"));
+
+// Builds both the .mcaddon and the manual-install .zip in one pass (each on its own re-cleans dist/packages)
+task("release", series("clean-local", "build", parallel("createMcaddonFile", "createReleaseZip")));

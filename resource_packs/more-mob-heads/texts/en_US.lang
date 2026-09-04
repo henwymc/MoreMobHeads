@@ -194,6 +194,11 @@ item.moremobheads:zombie_shepherd_head=Zombie Shepherd Head
 item.moremobheads:zombie_toolsmith_head=Zombie Toolsmith Head
 item.moremobheads:zombie_weaponsmith_head=Zombie Weaponsmith Head
 item.moremobheads:zombified_piglin_head=Zombified Piglin Head
+item.moremobheads:zombie_nautilus_head=Zombie Nautilus Head
+item.moremobheads:copper_golem_head=Copper Golem Head
+item.moremobheads:happy_ghast_head=Happy Ghast Head
+item.moremobheads:nautilus_head=Nautilus Head
+item.moremobheads:sulfur_cube_head=Sulfur Cube Head
 
 
 
@@ -392,3 +397,8 @@ tile.moremobheads:zombie_shepherd_head_block.name=Zombie Shepherd Head Block
 tile.moremobheads:zombie_toolsmith_head_block.name=Zombie Toolsmith Head Block
 tile.moremobheads:zombie_weaponsmith_head_block.name=Zombie Weaponsmith Head Block
 tile.moremobheads:zombified_piglin_head_block.name=Zombified Piglin Head Block
+tile.moremobheads:zombie_nautilus_head_block.name=Zombie Nautilus Head
+tile.moremobheads:copper_golem_head_block.name=Copper Golem Head
+tile.moremobheads:happy_ghast_head_block.name=Happy Ghast Head
+tile.moremobheads:nautilus_head_block.name=Nautilus Head
+tile.moremobheads:sulfur_cube_head_block.name=Sulfur Cube Head

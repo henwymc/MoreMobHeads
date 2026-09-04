@@ -27,7 +27,9 @@ const HeadRotationBlockComponent: BlockCustomComponent = {
     const rotation: number = getPreciseRotation(playerYRotation);
 
     // Tell Minecraft to place the correct `wiki:rotation` value
-    event.permutationToPlace = event.permutationToPlace.withState("moremobheads:rotation", rotation);
+    // "moremobheads:rotation" is a custom addon-defined block state; Mojang's BlockStateSuperset
+    // type only models vanilla states, so it can't be expressed through the generic constraint.
+    event.permutationToPlace = (event.permutationToPlace as any).withState("moremobheads:rotation", rotation);
   },
 };
 
